@@ -33,6 +33,7 @@ describe('jQuery', function () {
   it('should able to request https://raw.githubusercontent.com/FE-star/exercise1/master/test/test.js', function (done) {
     // 使用 jQuery.ajax 请求 https://raw.githubusercontent.com/FE-star/exercise1/master/test/test.js，并验证是否拿到文件
       let rescontent = `var assert = require('assert')
+
 describe('Array', function() {
   describe('#indexOf()', function() {
     it('should return -1 when the value is not present', function() {
